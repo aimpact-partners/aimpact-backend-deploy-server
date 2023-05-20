@@ -1,0 +1,24 @@
+[
+  [
+    "@aimpact/backend/aihub",
+    [
+      [
+        "AIModel",
+        [
+          [
+            "completions",
+            {}
+          ],
+          [
+            "chat",
+            {}
+          ],
+          [
+            "transcription",
+            {}
+          ]
+        ]
+      ]
+    ]
+  ]
+]
