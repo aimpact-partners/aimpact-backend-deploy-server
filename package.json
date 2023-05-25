@@ -4,20 +4,11 @@
   "title": "AImpact Backend",
   "description": "Backend Server for aimpact",
   "license": "ISC",
-  "repository": "",
-  "keywords": [],
   "scripts": {
     "start": "node index.js"
   },
-  "exports": {
-    "./actions.specs.json": "./actions.specs.json",
-    "./converter": "./converter.js",
-    "./database": "./database.js",
-    "./routes": "./routes.js",
-    "./api": "./api.js",
-    "./engines": "./engines.js",
-    "./aihub": "./aihub.js",
-    "./config": "./config.js"
+  "engines": {
+    "node": "16.x.x"
   },
   "dependencies": {
     "@beyond-js/backend": "~0.1.6",
@@ -48,6 +39,16 @@
     "@types/node": "^16.11.7"
   },
   "static": {},
+  "exports": {
+    "./actions.specs.json": "./actions.specs.json",
+    "./converter": "./converter.js",
+    "./database": "./database.js",
+    "./routes": "./routes.js",
+    "./api": "./api.js",
+    "./engines": "./engines.js",
+    "./aihub": "./aihub.js",
+    "./config": "./config.js"
+  },
   "uimport": [
     "@beyond-js/kernel/bundle",
     "fluent-ffmpeg",
@@ -62,6 +63,5 @@
     "puppeteer",
     "marked",
     "@beyond-js/backend/client"
-  ],
-  "clientDependencies": []
+  ]
 }
